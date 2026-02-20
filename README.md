@@ -2,7 +2,7 @@
 
 A high-performance movie discovery dashboard built with **Vanilla JavaScript** and **REST APIs**. This application provides a seamless way to browse movies, search titles, and manage a personalized watch list.
 
-### 🚀 [Live Demo]https://ahmedawan216.github.io/movieApp-JavaScript/
+### 🚀 [Live Demo] https://ahmedawan216.github.io/movieApp-JavaScript/
 
 ---
 
