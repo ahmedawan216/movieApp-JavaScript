@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RanGo Movie App</title>
+  <link rel="stylesheet" href="Movie-app.css">
+  <script src="https://kit.fontawesome.com/04d515e33a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="logo">MovieApp</div>
+
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search movies...">
+      <button id="searchBtn">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+
+    <button id="darkModeToggle">🌙</button>
+  </header>
+
+  <div class="app-layout">
+   <!-- Left Sidebar -->
+<aside class="sidebar-left">
+  <h3>Browse</h3>
+  <ul>
+    <li>Home</li>
+    <li>Trending</li>
+    <li>Top Rated</li>
+    <button id="clearFavBtn">Clear Favorites</button>
+  </ul>
+
+  <h3 class="favoritesHeader">Favorites ❤️</h3>
+  <div id="favoritesList">
+    <!-- User’s favorite movies will appear here -->
+  </div>
+</aside>
+
+    <!-- Main Content -->
+    <main class="movie-grid">
+      <!-- movie cards will load here -->
+       <div id="loading" class="hidden">
+        <p>Loading...</p>
+      </div>
+      <div id="no-results" class="hidden">
+        <p>No movies found. Try a different search.</p>
+      </div>
+    </main>
+    <div id="movie-detail-view" class="hidden"></div>
+  </div>
+
+  <script src="Movie-app.js"></script>
+</body>
+</html>
