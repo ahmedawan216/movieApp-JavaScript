@@ -17,6 +17,4 @@ A high-performance movie discovery dashboard built with **Vanilla JavaScript** a
 * **HTML5 & CSS3**: Custom grid layouts, root variables for theming, and modern typography.
 * **JavaScript (ES6+)**: Utilizes `async/await`, `fetch` API, and advanced DOM manipulation.
 * **External API**: Powered by [The Movie Database (TMDB)](https://www.themoviedb.org/).
-
-## 📸 Preview
-![App Preview](https://github.com/ahmedawan216/movieApp/raw/main/image_242cc2.jpg)
+  
